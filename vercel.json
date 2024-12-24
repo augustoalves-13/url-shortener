@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/next"
+      }
+    ],
+    "routes": [],
+    "env": {
+      "PRISMA_CLIENT_ENGINE_TYPE": "binary"
+    }
+  }
+  
